@@ -1,0 +1,19 @@
+# Python bytecode and local configuration
+__pycache__/
+*.py[cod]
+/config.json
+
+# PyInstaller output and generated spec
+/build/
+/dist/
+/PhanMemDoiTenPDF.spec
+
+# Uploaded catalogs: keep only the default project workbook
+/data/*.xlsx
+!/data/Danh_muc_tai_lieu_khong_dau.xlsx
+
+# Runtime OCR cache and rename plan/log
+ocr_cache.sqlite
+ui_records_cache.json
+rename_plan.json
+nhat_ky_doi_ten.json
